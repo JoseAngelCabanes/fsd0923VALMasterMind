@@ -31,6 +31,36 @@ body {
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
+.nameColorPicker {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 2rem;
+}
+
+.box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.textbox {
+  margin: 0 auto;
+  padding: 1rem;
+  border: 0.5rem solid #aaa;
+  border-radius: 2%;
+  background-clip: padding-box;
+  text-align: center;
+  background-color: #4a4a4aa1;
+}
+
+.box {
+  width: 10rem;
+  height: 2rem;
+  background-color: green;
+}
 h1 {
   font-size: 3rem;
   margin: 0;
@@ -52,6 +82,7 @@ p {
   text-transform: uppercase;
   transition: all 0.3s ease;
   cursor: pointer;
+  text-align: center;
 }
 
 /* Hover Effect */
