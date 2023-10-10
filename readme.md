@@ -110,7 +110,9 @@ If the player exhausts all the attempts (attempt_now == n_at) without guessing t
 This project was built using the following technologies:
 
 HTML5: Used for structuring the game's web page.
+
 CSS3: Used for styling the game's user interface.
+
 JavaScript: Used for implementing game logic and interactivity.
 
 ## Contributing
