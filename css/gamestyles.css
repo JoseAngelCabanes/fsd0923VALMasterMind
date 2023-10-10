@@ -1,0 +1,249 @@
+body {
+  overflow: hidden;
+  font-family: "Roboto", sans-serif;
+  background-image: url("../img/spacebackground.jpeg");
+  color: #fff;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  outline: none;
+}
+
+ul {
+  list-style: none;
+}
+
+h1 {
+  display: block;
+  width: 280px;
+  color: #ffffff;
+  background-color: transparent;
+  font-family: "Pacifico", arial;
+  font-size: 55px;
+  font-weight: 300;
+  padding: 0 20px 0 20px;
+  margin: 70px auto 5px;
+  border-radius: 20px;
+  border: 0px solid red;
+}
+
+h2 {
+  float: left;
+  font-family: "Pacifico", cursive;
+  color: #002618;
+  font-size: 25px;
+  display: block;
+  position: absolute;
+  padding: 10px -10px 0 0;
+}
+
+h5.ruls {
+  display: block;
+  position: absolute;
+  top: 20px;
+  right: 35px;
+  height: 20px;
+  padding: 5px 5px 0 0px;
+  text-align: left;
+}
+h5.ruls a {
+  padding-left: 5px;
+  line-height: 25px;
+  color: #040404;
+}
+
+
+.game {
+  width: 600px;
+  height: 700px;
+  margin: 0px auto;
+}
+
+.field {
+  position: relative;
+  height: 610px;
+  border: 1px solid transparent;
+}
+
+li {
+  height: 100px;
+}
+
+ul.attempts {
+  padding: 20px 0 0 20px;
+}
+ul.attempts li {
+  margin-bottom: -40px;
+}
+
+div.attempt i,
+div.attempt tt {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin: 0px 0px 0px 15px;
+}
+div.attempt tt {
+  display: none;
+}
+
+div.secrets .secret {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: 1px solid black;
+  background-color: black;
+  margin: 0px 0px 0px 15px;
+}
+div.secret:nth-child(5) {
+  display: none;
+}
+
+.secrets {
+  width: 350px;
+  margin: 5px auto 5px;
+  padding: 0 0 0 46px;
+}
+
+div.result {
+  float: left;
+  width: 50px;
+  height: 50px;
+  border-radius: 10px;
+  border: 1px solid black;
+  margin: 0px 70px 0px 30px;
+  padding: 0px 5px 5px 0;
+
+  border: 2px solid #444444;
+}
+
+div.result b,
+div.result em {
+  float: left;
+  display: block;
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  border: 1px solid black;
+  margin: 8px 0px 0px 8px;
+  background-color: #aaaaaa;
+  border: 3px solid #444444;
+}
+div.result em {
+  display: none;
+  position: relative;
+  top: -28px;
+  left: 9px;
+}
+
+div.fild_buttons {
+  width: 600px;
+}
+
+.fild_buttons .buttons {
+  width: 600px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 18px;
+}
+
+.fild_buttons .buttons input {
+  margin: 0 8px;
+  justify-content: space-around;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  color: transparent;
+}
+.fild_buttons .buttons input.b_pink,
+.fild_buttons .buttons input.b_dark {
+  display: none;
+}
+
+.secrets {
+  opacity: 0;
+}
+
+.game {
+  background-color: #6c6d6db0;
+  border: 1px solid #ffffff;
+}
+.field {
+  border-bottom: 2px solid #c8c8c8;
+  background: linear-gradient(to top, #595b5b7a, #dddccd);
+}
+div.attempt i,
+div.attempt tt {
+  background: #b6b6b6;
+  border: 1px solid #33695b;
+}
+
+div.result {
+  border: 2px solid #444444;
+}
+div.result b,
+div.result em {
+  background-color: #cddcb9;
+  border: 3px solid #444444;
+}
+.fild_buttons input.b_cansel {
+  color: black;
+  background-color: #607d8b;
+}
+
+h1.rai {
+  color: white;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  font-size: 20px;
+  background: "#388E3C";
+  background: -moz-linear-gradient(
+    top,
+    rgba(255, 0, 0, 1) 0%,
+    rgba(255, 255, 0, 1) 15%,
+    rgb(255, 0, 0) 30%,
+    rgba(0, 255, 255, 1) 50%,
+    rgba(0, 0, 255, 1) 65%,
+    rgba(255, 0, 255, 1) 80%,
+    rgba(255, 0, 0, 1) 100%
+  );
+}
+
+.b_white {
+  background-color: #fff;
+}
+.b_lilac {
+  background-color: #9c27b0;
+}
+.b_yellow {
+  background-color: #ffc107;
+}
+.b_green {
+  background-color: #388e3c;
+}
+.b_red {
+  background-color: #d32f2f;
+}
+.b_blue {
+  background-color: #1976d2;
+}
+.b_pink {
+  background-color: #ff90a1;
+}
+.b_dark {
+  background-color: #202f8f;
+}
+
+.ra {
+  width: 300px;
+  border: 5px solid red;
+}
+
+.fonc {
+  padding-left: 40px;
+  display: none !important;
+}
