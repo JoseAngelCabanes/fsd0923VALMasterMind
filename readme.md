@@ -1,6 +1,9 @@
 # Online Mastermind Game
 
-![Game Screenshot](screenshot.png)
+![Game Screenshot](/img/mainPage.png)
+![Game Screenshot](/img/about.png)
+![Game Screenshot](/img/colorNamePicker.png)
+![Game Screenshot](/img/game.png)
 
 Welcome to the Online Mastermind Game! This is a web-based implementation of the classic Mastermind board game. In this game, you can choose from 4 different colors, and then use those colors to guess the winning combination.
 
