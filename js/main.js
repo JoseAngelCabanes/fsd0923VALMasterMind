@@ -1,4 +1,3 @@
-
 var n = 4;
 var n_colors = 4;
 var n_at = 10;
@@ -14,31 +13,6 @@ var Att = document.getElementsByClassName("attempt");
 var Butt = document.getElementsByClassName("bcol");
 var Bod = document.getElementsByTagName("body");
 
-window.onload = function () {
-  if (n == 5) {
-    Htag[0].style.width = "300px";
-    Htag[0].innerHTML = "<h2>Ultimate</h2> Mastermind";
-  }
-  if (n == 4) {
-    Bod[0].classList.add("n-4-4");
-  }
-  if (n == 5) {
-    Bod[0].classList.add("n-5-8");
-    n_colors = 10;
-    Itags = document.querySelectorAll("i,tt");
-    Btags = document.querySelectorAll("b,em");
-  }
-};
-
-var Secrets = document.getElementsByClassName("secret");
-var Fon = document.getElementsByClassName("fonc");
-
-var Htag = document.getElementsByTagName("h1");
-var Sec = document.getElementsByClassName("secrets");
-var Att = document.getElementsByClassName("attempt");
-
-var Butt = document.getElementsByClassName("bcol");
-
 function rand_till(n) {
   var aa = Math.random();
   var aaa = Math.floor(aa * n);
@@ -47,7 +21,6 @@ function rand_till(n) {
   }
   return Math.floor(aa * n);
 }
-
 
 function FunColor(but) {
   var pressed_color = but.value;
@@ -61,7 +34,6 @@ function FunColor(but) {
   color_def = window.getComputedStyle(
     document.getElementsByClassName("fonc")[0]
   ).backgroundColor;
-
 
   for (i = 0; i < n_colors; i++) {
     colors[i] = window.getComputedStyle(
@@ -177,11 +149,11 @@ function FunColor(but) {
     }
 
     if (sum1 == n) {
-        var redirectURL = '../pages/win.html';
-        window.location.href = redirectURL;
-        Htag[0].classList.add("rai");
-        Sec[0].style.opacity = 1;
-      }
+      var redirectURL = "../pages/win.html";
+      window.location.href = redirectURL;
+      Htag[0].classList.add("rai");
+      Sec[0].style.opacity = 1;
+    }
 
     for (i = 0; i < n; i++) {
       ii = x_now + i + 1 - n;
