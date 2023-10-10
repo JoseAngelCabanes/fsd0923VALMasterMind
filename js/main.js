@@ -28,7 +28,7 @@ function FunColor(but) {
   var colors_cod = [];
   var colors_attempt = [];
   var sum1, sum2;
-  var m2, x, x_now, attempt_now, at;
+  var x, x_now, attempt_now, at;
   var end_of_attempt = false;
   var color_def;
   color_def = window.getComputedStyle(
