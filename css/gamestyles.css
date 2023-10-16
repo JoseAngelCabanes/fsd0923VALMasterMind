@@ -238,6 +238,45 @@ h1.rai {
   background-color: #202f8f;
 }
 
+.b_blue1 {
+  background-color: #1976d2;
+}
+.b_blue2 {
+  background-color: #130fe9;
+}
+.b_blue3 {
+  background-color: #5642b1;
+}
+.b_blue4 {
+  background-color: #00fff2;
+}
+
+.b_brown1 {
+  background-color: brown;
+}
+.b_brown2 {
+  background-color: rgb(219, 83, 20);
+}
+.b_brown3 {
+  background-color: rgb(107, 2, 2);
+}
+.b_brown4 {
+  background-color: rgb(167, 134, 15);
+}
+
+.b_green1 {
+  background-color: rgb(183, 255, 0);
+}
+.b_green2 {
+  background-color: rgb(2, 255, 183);
+}
+.b_green3 {
+  background-color: rgb(66, 122, 6);
+}
+.b_green4 {
+  background-color: rgb(2, 54, 17);
+}
+
 .ra {
   width: 300px;
   border: 5px solid red;
