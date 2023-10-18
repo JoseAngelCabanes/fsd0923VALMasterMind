@@ -33,7 +33,7 @@ btnName.addEventListener("click", function () {
 
     if (inputName.trim() !== "") {
         localStorage.setItem("name", inputName);
-        window.location.href = "color.html"
+        window.location.href = "namecolor.html"
 
     } else {
         alert("Please insert a name.");
